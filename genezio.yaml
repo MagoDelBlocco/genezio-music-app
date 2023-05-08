@@ -1,0 +1,15 @@
+name: music-app
+region: us-east-1
+cloudProvider: aws
+sdk:
+  language: js
+  options:
+    runtime: node
+  path: ./sdk/
+classes:
+  - path: core.js
+    type: jsonrpc
+    methods: []
+  - path: playlist.js
+    type: http
+    methods: []
